@@ -32,6 +32,8 @@ open Helpers
 
 readAllInt32 "day1.input" 
 |> Array.sumBy getRequiredFuelForMass
+|> printfn "Day1 part 1: %d"
 
 readAllInt32 "day1.input" 
 |> Array.sumBy getRequiredFuelForModule
+|> printfn "Day1 part 2: %d"

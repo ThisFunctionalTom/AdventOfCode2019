@@ -1,0 +1,8 @@
+GENERATE-LOAD-SCRIPTS: ON
+STORAGE: NONE
+RESTRICTION: == netstandard2.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (4.7)
+    unquote (5.0)
+      FSharp.Core (>= 4.6.2)
